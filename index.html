@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📝 Task Manager</h1>
+
+<div class="input-container">
+  <input type="text" id="taskInput" placeholder="Enter task...">
+  <button onclick="addTask()">Add</button>
+</div>
+
+<div class="board">
+  <div class="column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h2>To Do</h2>
+  </div>
+
+  <div class="column" id="progress" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h2>In Progress</h2>
+  </div>
+
+  <div class="column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <h2>Done</h2>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

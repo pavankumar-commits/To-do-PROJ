@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #fa2739;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(60, 196, 60);
+  color: #2f5a9b;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  width: 30%;
+  background-color: rgb(107, 179, 212);
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+.task {
+  background: #e0535a;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: grab;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.task button {
+  margin-top: 5px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+}
